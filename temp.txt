@@ -1,0 +1,98 @@
+is hamiltonian
+
+0 1
+0 2
+0 5
+1 2
+1 5
+2 4
+2 3
+2 5
+3 4
+4 1
+4 5
+5 0
+5 3
+
+GraphPlot[{
+0 \[DirectedEdge] 1,
+0 \[DirectedEdge] 2,
+0 \[DirectedEdge] 5,
+1 \[DirectedEdge] 2,
+1 \[DirectedEdge] 5,
+2 \[DirectedEdge] 4,
+2 \[DirectedEdge] 3,
+2 \[DirectedEdge] 5,
+3 \[DirectedEdge] 4,
+4 \[DirectedEdge] 1,
+4 \[DirectedEdge] 5,
+5 \[DirectedEdge] 0,
+5 \[DirectedEdge] 3},
+VertexLabels -> Placed[Automatic, Center], VertexSize -> 0.4]
+
+
+
+GraphPlot[{
+0 \[UndirectedEdge] 1,
+0 \[UndirectedEdge] 2,
+0 \[UndirectedEdge] 5,
+1 \[UndirectedEdge] 2,
+1 \[UndirectedEdge] 5,
+2 \[UndirectedEdge] 4,
+2 \[UndirectedEdge] 3,
+2 \[UndirectedEdge] 5,
+3 \[UndirectedEdge] 4,
+4 \[UndirectedEdge] 1,
+4 \[UndirectedEdge] 5,
+5 \[UndirectedEdge] 0,
+5 \[UndirectedEdge] 3},
+VertexLabels -> Placed[Automatic, Center], VertexSize -> 0.4]
+
+
+
+graph builder test
+
+0 1
+0 2
+0 3
+0 5
+1 2
+1 5
+2 4
+2 5
+3 4
+4 5
+4 6
+7 8
+
+GraphPlot[{
+0 \[DirectedEdge] 1,
+0 \[DirectedEdge] 2,
+0 \[DirectedEdge] 3,
+0 \[DirectedEdge] 5,
+1 \[DirectedEdge] 2,
+1 \[DirectedEdge] 5,
+2 \[DirectedEdge] 4,
+2 \[DirectedEdge] 5,
+3 \[DirectedEdge] 4,
+4 \[DirectedEdge] 5,
+4 \[DirectedEdge] 6,
+7 \[DirectedEdge] 8},
+VertexLabels -> Placed[Automatic, Center], VertexSize -> 0.4]
+
+GraphPlot[{
+0 \[UndirectedEdge] 1,
+0 \[UndirectedEdge] 2,
+0 \[UndirectedEdge] 3,
+0 \[UndirectedEdge] 5,
+1 \[UndirectedEdge] 2,
+1 \[UndirectedEdge] 5,
+2 \[UndirectedEdge] 4,
+2 \[UndirectedEdge] 5,
+3 \[UndirectedEdge] 4,
+4 \[UndirectedEdge] 5,
+4 \[UndirectedEdge] 6,
+7 \[UndirectedEdge] 8},
+VertexLabels -> Placed[Automatic, Center], VertexSize -> 0.4]
+
+
